@@ -1,4 +1,4 @@
-## Experiment 3
+## Experiment 17
 ## Aim:
 To create SQL query to show the top n records of the table using Limit method.
 
@@ -79,5 +79,8 @@ SELECT TOP 3 * FROM Player ORDER BY DESIGNATION DESC;
 SELECT * FROM (SELECT * FROM Player ORDER BY DESIGNATION DESC)
 WHERE ROWNUM <= 3;
 ```
+## Output 
+![image](https://github.com/balaji-21005757/sql-3/assets/94372294/6b7b40d8-7bc6-4f80-8b18-24fb188ba629)
+
 ## Result:
 Therefore we have successfully created a SQL query to show the top n records of the table using Limit method.
